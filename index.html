@@ -18,21 +18,21 @@
     <header>
         <div class="container flex-between">
             <div class="flex">
-                <div class="flex location">
+                <address class="flex location">
                     <i class="fas fa-map-marker-alt"></i>
                     <p>65/A,17th floor,King land ,NewYork</p>
-                </div>
-                <div class="flex">
+                </address>
+                <address class="flex">
                     <i class="far fa-envelope"></i>
                     <p>info@consulting</p>
-                </div>
+                </address>
             </div>
-            <div class="flex ">
+            <nav class="flex ">
                 <i class="fab fa-linkedin-in"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-google-plus-g"></i>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- last -header -->
@@ -41,25 +41,20 @@
         <section class="page-link">
             <div class="container flex-between ">
                 <div>
-                    <img src="./assets/media/logo/logo.png" alt="">
+                    <a href="index.html"><img src="./assets/media/logo/logo.png" alt="logo"></a>
                 </div>
                 <nav class="flex ">
-                    <ul>
+                    <ul class="flex">
                         <li><a href="index.html">HOME</a></li>
-                    </ul>
-                    <ul>
+
                         <li><a href="about.html">ABOUT</a></li>
-                    </ul>
-                    <ul>
+
                         <li><a href="service.html">SERVICES</a></li>
-                    </ul>
-                    <ul>
+
                         <li><a href="case.html">CASES</a></li>
-                    </ul>
-                    <ul>
+
                         <li><a href="blog.html">BLOG</a></li>
-                    </ul>
-                    <ul>
+
                         <li><a href="contact.html">CONTACT</a></li>
                     </ul>
                     <ul class="nav-bar-btn">
@@ -81,14 +76,20 @@
         <section class="team">
             <div class="container middle">
                 <article class="width-20">
-                    <img src="./assets/media/team/team_1.jpg" alt="">
+                    <figure>
+                        <img src="./assets/media/team/team_1.jpg" alt="team-img">
+                    </figure>
+
                     <h2 class="team-heading"> Business Planning</h2>
                     <p class="team-heading-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Illo, est mollitia. Ducimus inventore illo optio, illum
                         nisi error accusamus quo?</p>
                 </article>
                 <article class="width-20">
-                    <img src="./assets/media/team/team_2.jpg" alt="">
+                    <figure>
+                        <img src="./assets/media/team/team_2.jpg" alt="team-img">
+                    </figure>
+
                     <h2 class="team-heading">Business Planning</h2>
                     <p class="team-heading-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Illo, est mollitia. Ducimus inventore illo optio, illum
@@ -110,10 +111,10 @@
         <!-- welcome-buson-last -->
         <section class="third-team ">
             <div class="container">
-                <div class="width-30 ">
-                    <img src="./assets/media/team/wetrusted.jpg" alt="">
-                </div>
-                <div class="width-35">
+                <figure class="width-30 ">
+                    <img src="./assets/media/team/wetrusted.jpg" alt="team-img">
+                </figure>
+                <article class="width-35">
                     <h2 class="with-35-heading">
                         We are more trusted than 5000 clients
                     </h2>
@@ -123,13 +124,13 @@
                         quos saepe odit sapiente ex natus animi vitae!
                     </p>
                     <button class="learn-more-btn"> LEARN MORE</button>
-                </div>
+                </article>
             </div>
         </section>
         <section class="service-block">
             <h3>Our Services</h3>
             <div class="flex-middle service-block">
-                <div class="width-15">
+                <article class="width-15">
                     <div>
                         <i class="fas fa-clipboard-list"></i>
                         <h4>Stratigic Planning</h4>
@@ -138,8 +139,8 @@
                             autem adipisci! Illum, voluptas.
                             autem adipisci!</p>
                     </div>
-                </div>
-                <div class="width-15 stock-margin">
+                </article>
+                <article class="width-15 stock-margin">
                     <div>
                         <i class="fas fa-clipboard-list"></i>
                         <h4>Trade & Stock</h4>
@@ -148,15 +149,15 @@
                             autem adipisci! Illum, voluptas.
                             autem adipisci!</p>
                     </div>
-                </div>
-                <div class="width-15">
+                </article>
+                <article class="width-15">
                     <div>
                         <i class="fas fa-calculator"></i>
                         <h4>Audit & Assurance</h4>
                         <p class="service-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
                             voluptas. autem adipisci! Illum, voluptas.autem adipisci!</p>
                     </div>
-                </div>
+                </article>
             </div>
             <div class="flex-middle">
                 <button class="more-service-btn">MORE SERVICES</button>
@@ -164,7 +165,7 @@
         </section>
         <section class="case-block">
             <div class="flex-middle case-container  container">
-                <div class="width-25">
+                <article class="width-25">
                     <h4 class="case-heading">
                         Completed Cases
                     </h4>
@@ -176,76 +177,80 @@
                     <div>
                         <button class="see-more-btn">SEE MORE</button>
                     </div>
-                </div>
-                <div class="case-image-container flex">
-                    <img src="./assets/media/cases/completed_case_2.png" alt="">
+                </article>
+                <figure class="case-image-container flex">
+                    <img src="./assets/media/cases/completed_case_2.png" alt="case-img">
 
-                    <img src="./assets/media/cases/completed_case_1.png" alt="">
+                    <img src="./assets/media/cases/completed_case_1.png" alt="case-img">
 
                     <img class="last-case-img" src="./assets/media/cases/completed_case_2.png" alt="">
-                </div>
+                </figure>
             </div>
         </section>
         <section class="testimonal-block">
-            <div class="flex-middle">
-                <img class="testimonal" src="./assets/media/testimonial/Homepage_testi.png" alt="">
-            </div>
+            <figure class="flex-middle">
+                <img class="testimonal" src="./assets/media/testimonial/Homepage_testi.png" alt="testimonial-img">
+            </figure>
             <div class="flex-around container testimonal-heading">
                 <i class="fas fa-chevron-left"></i>
-                <p class="width-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <blockquote class="width-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Sint nesciunt, non recusandae eaque eligendi odio dicta, lorem ipsum
-
-                </p>
+                </blockquote>
                 <i class="fas fa-chevron-right"></i>
             </div>
-            <div class="flex-middle star-img-block">
+            <figure class="flex-middle star-img-block">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-            </div>
+            </figure>
             <div class="flex-middle">
-                <p class="testinomal-name">CLIPFFORD FRAZIER- <span class="testinomal-surname">colorlib Themes</span>
-                </p>
+                <cite class="testinomal-name">CLIPFFORD FRAZIER- <span class="testinomal-surname">colorlib Themes</span>
+                </cite>>
             </div>
 
         </section>
         <section>
             <h3> Our Recent News</h3>
             <div class="flex-around container recent-news-col">
-                <div>
-                    <img src="./assets/media/recent/rcent_1.png" alt="">
+                <article>
+                    <figure>
+                        <img src="./assets/media/recent/rcent_1.png" alt="news-img">
+                    </figure>
+
                     <div class="news-block">
                         <p class="recent-news-heading">Business Planning</p>
                         <p class="news-title">Amazing Places To Visit in Summer</p>
-                        <p class="news-date">Nov 30,2020</p>
+                        <date class="news-date">Nov 30,2020</date>
                     </div>
-                </div>
+                </article>
 
-                <div>
-                    <img src="./assets/media/recent/rcent_2.png" alt="">
+                <article>
+                    <figure>
+                        <img src="./assets/media/recent/rcent_2.png" alt="news-img">
+                    </figure>
+
                     <div class="news-block">
                         <p class="recent-news-heading">Audit</p>
                         <p class="news-title">Amazing Places To Visit in Summer</p>
-                        <p class="news-date">Nov 30,2020</p>
+                        <date class="news-date">Nov 30,2020</date>
                     </div>
-                </div>
+                </article>
 
-                <div>
-                    <img src="./assets/media/recent/rcent_3.png" alt="">
+                <articel>
+                    <figure>
+                        <img src="./assets/media/recent/rcent_3.png" alt="news-img">
+                    </figure>
+
                     <div class="news-block">
                         <p class="recent-news-heading">Business Planning</p>
                         <p class="news-title">Amazing Places To Visit in Summer</p>
-                        <p class="news-date">Nov 30,2020</p>
+                        <date class="news-date">Nov 30,2020</date>
                     </div>
-                </div>
+                </articel>
             </div>
         </section>
-
-
-
-
         <section class="request-block flex-middle">
             <div class="between container">
                 <div class="request-title">
@@ -272,96 +277,102 @@
 
         <div class="container between line">
             <div class=" width-40">
-                <img src="./assets/media/logo/logo2_footer.png" alt="">
+                <img src="./assets/media/logo/logo2_footer.png" alt="logo">
                 <p class="footer-logo-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-pinterest-square"></i>
+                <nav>
+                    <a href=""><i class="fab fa-facebook-square social"></i></a>
+                    <a href=""><i class="fab fa-twitter-square social"></i></a>
+                    <a href=""><i class="fab fa-linkedin social"></i></a>
+                    <a href=""><i class="fab fa-pinterest-square social"></i></a>
+                    
+                    
+                    
+                </nav>
 
             </div>
             <div>
                 <h5 class="footer-nav-heading">
                     Company
                 </h5>
-                <ul>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">About Us</a>
-                    </li>
-                    <li>
-                        <a href="">Sevices</a>
-                    </li>
-                    <li>
-                        <a href="">cases</a>
-                    </li>
-                    <li>
-                        <a href="">Blog</a>
-                    </li>
-                    <li>
-                        <a href="">Contact Us</a>
-                    </li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Sevices</a>
+                        </li>
+                        <li>
+                            <a href="">cases</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
 
             <div>
                 <h5 class="footer-nav-heading">
                     Services
                 </h5>
-                <ul>
-                    <li>
-                        <a href="">Commercial Cleaning</a>
-                    </li>
-                    <li>
-                        <a href="">Office Cleaning</a>
-                    </li>
-                    <li>
-                        <a href="">Building Cleaning</a>
-                    </li>
-                    <li>
-                        <a href="">Floor Cleaning</a>
-                    </li>
-                    <li>
-                        <a href="">Apartment Cleaning</a>
-                    </li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Commercial Cleaning</a>
+                        </li>
+                        <li>
+                            <a href="">Office Cleaning</a>
+                        </li>
+                        <li>
+                            <a href="">Building Cleaning</a>
+                        </li>
+                        <li>
+                            <a href="">Floor Cleaning</a>
+                        </li>
+                        <li>
+                            <a href="">Apartment Cleaning</a>
+                        </li>
+                    </ul>
+                </nav>
+ 
             </div>
 
             <div>
                 <h5 class="footer-nav-heading">
                     Get In Touch
                 </h5>
-                <ul>
-                    <li>
-                        <a href="">152-515-6565</a>
-                    </li>
-                    <li>
-                        <a href="">Demonial@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="">New orieans,USA</a>
-                    </li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">152-515-6565</a>
+                        </li>
+                        <li>
+                            <a href="">Demonial@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="">New orieans,USA</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
 
         </div>
 
         <div class="flex-middle copyright-notice">
-            <p class="copyright">Copyright<small>&copy</small>2020 All rights reserved | This Template is made with
+            <small class="copyright">Copyright &copy 2020 All rights reserved | This Template is made with
                 <i class="far fa-heart"></i>by <span class="name">Adarsh</span>
-            </p>
+        `   </small>
         </div>
     </footer>
 
-
-
-
-
-
-
 </body>
-
 </html>
